@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Tech Kadak: official links, zero jugaad" width="100%">
+<img src="assets/hero.png" alt="Tech Kadak: official links, zero jugaad. Free and open-source apps in one Android app." width="100%">
 
 <br>
 
-[![Latest release](https://img.shields.io/github/v/release/techkadak/techkadak-app?style=for-the-badge&color=A6FF00&labelColor=0A0C0A&label=latest)](https://github.com/techkadak/techkadak-app/releases/latest)
-[![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-A6FF00?style=for-the-badge&labelColor=0A0C0A&logo=android&logoColor=A6FF00)](#system-requirements)
-[![Downloads](https://img.shields.io/github/downloads/techkadak/techkadak-app/total?style=for-the-badge&color=A6FF00&labelColor=0A0C0A&label=downloads)](https://github.com/techkadak/techkadak-app/releases)
-[![Free](https://img.shields.io/badge/price-free-A6FF00?style=for-the-badge&labelColor=0A0C0A)](#faq)
+[![Latest release](https://img.shields.io/github/v/release/techkadak/techkadak-app?style=for-the-badge&color=3B82FF&labelColor=0B1020&label=latest)](https://github.com/techkadak/techkadak-app/releases/latest)
+[![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-3B82FF?style=for-the-badge&labelColor=0B1020&logo=android&logoColor=white)](#system-requirements)
+[![Downloads](https://img.shields.io/github/downloads/techkadak/techkadak-app/total?style=for-the-badge&color=3B82FF&labelColor=0B1020&label=downloads)](https://github.com/techkadak/techkadak-app/releases)
+[![Free](https://img.shields.io/badge/price-free-7C3AED?style=for-the-badge&labelColor=0B1020)](#faq)
 
 ### [⬇️&nbsp;&nbsp;Download the latest version](https://github.com/techkadak/techkadak-app/releases/latest)
 
@@ -34,11 +34,7 @@
 
 > The button above always opens the newest stable release. The table is refreshed automatically when a new release is published. See [how to check the file](docs/VERIFY.md) before you install.
 
-**Install in 3 steps**
-
-1. Download the APK from the latest release.
-2. Open it. If Android asks, allow *Install unknown apps* for your browser or file manager.
-3. Tap **Install**. After that, Tech Kadak tells you about updates inside the app.
+<img src="assets/install.png" alt="Install in 4 steps: download, allow, install, stay updated" width="100%">
 
 Already on an older version? Just install over it, your data stays. The in-app update does the same thing for you. More detail: [docs/INSTALL.md](docs/INSTALL.md).
 
@@ -50,37 +46,13 @@ Made in India by [Rohit Saini](https://t.me/techkadak).
 
 ## 📸 Screenshots
 
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/01-home.jpg" width="200"><br><sub>Home</sub></td>
-    <td align="center"><img src="screenshots/02-home-dark.jpg" width="200"><br><sub>Dark theme</sub></td>
-    <td align="center"><img src="screenshots/03-app-detail.jpg" width="200"><br><sub>App details</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/04-member-card.jpg" width="200"><br><sub>Member card</sub></td>
-    <td align="center"><img src="screenshots/05-browser-menu.jpg" width="200"><br><sub>In-app browser</sub></td>
-    <td align="center"><img src="screenshots/06-feedback.jpg" width="200"><br><sub>Feature suggestions</sub></td>
-  </tr>
-</table>
+<img src="assets/screenshots.png" alt="App screenshots: home, dark theme, app details, member card, in-app browser, feature suggestions" width="100%">
 
 <sub>Screenshots are from the real app (v1.5.0) running on an Android 9 emulator.</sub>
 
 ## 🚀 Key features
 
-| | |
-|---|---|
-| 🧭 **Official links only** | Every app points to its official GitHub, F-Droid or website page. |
-| 📲 **Install inside the app** | In-app Install, Open and Update with background download and progress. |
-| 🎒 **Kits** | A full set in one tap: Student, Creator, Phone cleaning, Privacy, Office, Music and Video. |
-| 🌐 **In-app browser** | Search, tabs, downloads, bookmarks, history and incognito, built into the app. |
-| 🖼️ **Official screenshots** | Swipe through each app's own screenshots before you install. |
-| ⭐ **Real reviews** | Write a review (login needed). Only real reviews, nothing fake. |
-| 💡 **Suggest a feature** | Tap the bulb at the top and tell us what you want next. |
-| 🎨 **Make it yours** | AMOLED, Dark and Light themes, accent colours, font size, Hinglish or English. |
-| 🔐 **Optional login** | Google, email or phone. You can skip it. |
-| 🪪 **Member card** | An animated card with your member number, also in Profile. |
-| 🖼️ **Share posters** | Make a poster of any app for WhatsApp or Instagram. |
-| 🔔 **Update card** | A cancellable card when a new version is out. Never forced. |
+<img src="assets/features.png" alt="Key features: official links only, install in the app, kits, in-app browser, official screenshots, real reviews, themes, feature suggestions, member card" width="100%">
 
 ## 🆕 What's new in v1.5.0
 
