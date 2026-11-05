@@ -1,0 +1,56 @@
+name: Check README and release
+on:
+  push:
+    paths: ["README.md", "docs/**", "changelog/**", "screenshots/**", "assets/**"]
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links, image paths and that the README shows the latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import os, re, glob, json, urllib.request, urllib.error, sys
+          repo = os.environ["REPO"]; tok = os.environ["GH_TOKEN"]
+          errs = []; warns = []
+          files = ["README.md", "CONTRIBUTING.md"] + glob.glob("docs/*.md") + glob.glob("changelog/*.md")
+          for f in files:
+              t = open(f, encoding="utf-8").read()
+              for p in re.findall(r'(?:src|href)="(?!https?:|#|mailto:)([^"]+)"|\]\((?!https?:|#|mailto:)([^)\s]+)\)', t):
+                  p = (p[0] or p[1]).split("#")[0]
+                  if p and not os.path.exists(os.path.normpath(os.path.join(os.path.dirname(f), p))):
+                      errs.append(f"{f}: missing file {p}")
+          urls = set()
+          for f in files:
+              urls |= set(re.findall(r'https?://[^\s)"<>`]+', open(f, encoding="utf-8").read()))
+          for u in sorted(urls):
+              u = u.rstrip(".,")
+              if "img.shields.io" in u or "<" in u or "{" in u:
+                  continue
+              try:
+                  req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+                  urllib.request.urlopen(req, timeout=30).close()
+              except urllib.error.HTTPError as e:
+                  (warns if e.code in (401, 403, 429, 999) else errs).append(f"{u} -> {e.code}")
+              except Exception as e:
+                  warns.append(f"{u} -> {type(e).__name__}")
+          req = urllib.request.Request(f"https://api.github.com/repos/{repo}/releases/latest",
+                                       headers={"Authorization": "Bearer " + tok})
+          rel = json.load(urllib.request.urlopen(req, timeout=60))
+          apks = [a for a in rel["assets"] if a["name"].endswith(".apk")]
+          if not apks: errs.append("latest release has no APK")
+          readme = open("README.md", encoding="utf-8").read()
+          if f"**{rel['tag_name']}**" not in readme:
+              errs.append(f"README latest block does not show {rel['tag_name']} (run 'Update latest release info')")
+          for w in warns: print("WARN", w)
+          for e in errs: print("ERROR", e)
+          sys.exit(1 if errs else 0)
+          PY
