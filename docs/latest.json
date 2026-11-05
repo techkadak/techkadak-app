@@ -1,0 +1,10 @@
+{
+  "version": "v1.5.0",
+  "published_at": "2026-11-05T09:12:15Z",
+  "apk": "TechKadak-v1.5.0.apk",
+  "size_bytes": 5164485,
+  "sha256": "9872b77be16a8c13510c80ef5227d659d6ce7a68ab40acd1f3f497efa72fdf49",
+  "download_url": "https://github.com/techkadak/techkadak-app/releases/download/v1.5.0/TechKadak-v1.5.0.apk",
+  "release_url": "https://github.com/techkadak/techkadak-app/releases/tag/v1.5.0",
+  "min_android": "7.0"
+}
