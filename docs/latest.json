@@ -1,10 +1,10 @@
 {
-  "version": "v1.5.1",
-  "published_at": "2026-11-05T11:35:25Z",
-  "apk": "TechKadak-v1.5.1.apk",
-  "size_bytes": 5164488,
-  "sha256": "6823d3de2c182b47b5516d0bfc191694b59e6a9f5e08b9bf5d4f775262bb8e65",
-  "download_url": "https://github.com/techkadak/techkadak-app/releases/download/v1.5.1/TechKadak-v1.5.1.apk",
-  "release_url": "https://github.com/techkadak/techkadak-app/releases/tag/v1.5.1",
+  "version": "v1.6.0",
+  "published_at": "2026-11-07T17:16:05Z",
+  "apk": "TechKadak-v1.6.0.apk",
+  "size_bytes": 5197308,
+  "sha256": "1b679e297dc3ce9486908d71b0c9469f25aa0a082982360831b7ce644251c308",
+  "download_url": "https://github.com/techkadak/techkadak-app/releases/download/v1.6.0/TechKadak-v1.6.0.apk",
+  "release_url": "https://github.com/techkadak/techkadak-app/releases/tag/v1.6.0",
   "min_android": "7.0"
 }
