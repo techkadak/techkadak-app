@@ -24,12 +24,12 @@
 <!-- LATEST:START -->
 | | |
 |---|---|
-| **Version** | **v1.7.1** |
+| **Version** | **v1.7.2** |
 | **Released** | 7 Nov 2026 |
-| **APK size** | 5.18 MB (5,180,901 bytes) |
+| **APK size** | 5.18 MB (5,180,892 bytes) |
 | **Requires** | Android 7.0+ |
-| **SHA-256** | `72a246699de7fdbc3269c9c46d872b55926da5e97fb70fec8d4a8359c78f0143` |
-| **Direct APK** | [TechKadak-v1.7.1.apk](https://github.com/techkadak/techkadak-app/releases/download/v1.7.1/TechKadak-v1.7.1.apk) |
+| **SHA-256** | `07933ddad0853a2747f74d60fb8365447e1abdd821a5ea5f4050a315c217f8e2` |
+| **Direct APK** | [TechKadak-v1.7.2.apk](https://github.com/techkadak/techkadak-app/releases/download/v1.7.2/TechKadak-v1.7.2.apk) |
 <!-- LATEST:END -->
 
 > The button above always opens the newest stable release. The table is refreshed automatically when a new release is published. See [how to check the file](docs/VERIFY.md) before you install.
