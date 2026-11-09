@@ -13,7 +13,15 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 
-enum class ThemeMode(val hi: String, val en: String) { AMOLED("AMOLED Black", "AMOLED Black"), DARK("Dark", "Dark"), LIGHT("Light", "Light"), GLASS("Liquid Glass ✨", "Liquid Glass ✨") }
+enum class ThemeMode(val hi: String, val en: String) { AMOLED("AMOLED Black", "AMOLED Black"), DARK("Dark", "Dark"), LIGHT("Light", "Light"), GLASS("Liquid Glass ✨", "Liquid Glass ✨"),
+    GLOSSY_DARK("Glossy Dark", "Glossy Dark"), IOS_LIGHT("iOS Light", "iOS Light"), IOS_DARK("iOS Dark", "iOS Dark"), MATTE_BLACK("Matte Black", "Matte Black"), MATTE_WHITE("Matte White", "Matte White"), GLOSSY_PURPLE("Glossy Purple", "Glossy Purple"), LIQUID_GLASS("Liquid Glass", "Liquid Glass"), NEON_GLOW("Neon Glow", "Neon Glow"), AURORA_GRADIENT("Aurora Gradient", "Aurora Gradient"), SUNSET_GRADIENT("Sunset Gradient", "Sunset Gradient"), OCEAN_BLUE("Ocean Blue", "Ocean Blue"), FOREST_GREEN("Forest Green", "Forest Green"), ROYAL_GOLD("Royal Gold", "Royal Gold"), ROSE_PASTEL("Rose Pastel", "Rose Pastel"), MINT_FRESH("Mint Fresh", "Mint Fresh"), PEACH_SOFT("Peach Soft", "Peach Soft"), CYBERPUNK("Cyberpunk", "Cyberpunk"), RETRO_TERMINAL("Retro Terminal", "Retro Terminal"), PAPER_INK("Paper Ink", "Paper Ink"), EARTHY_NATURE("Earthy Nature", "Earthy Nature"), CARBON_FIBER("Carbon Fiber", "Carbon Fiber"), MIDNIGHT_BLUE("Midnight Blue", "Midnight Blue"), CHERRY_RED("Cherry Red", "Cherry Red"), LAVENDER_DREAM("Lavender Dream", "Lavender Dream"), MONOCHROME("Monochrome", "Monochrome"), HIGH_CONTRAST("High Contrast", "High Contrast"), SAKURA_PINK("Sakura Pink", "Sakura Pink"), ARCTIC_FROST("Arctic Frost", "Arctic Frost"), COFFEE_BROWN("Coffee Brown", "Coffee Brown"), EMERALD_LUXE("Emerald Luxe", "Emerald Luxe");
+
+    /** Light background wali looks: text/ink dark side se, Palette.isLight yahin se padhta hai. */
+    val isLightLook: Boolean get() = this == LIGHT || this in LIGHT_LOOKS
+    companion object {
+        private val LIGHT_LOOKS = setOf(IOS_LIGHT, MATTE_WHITE, ROSE_PASTEL, MINT_FRESH, PEACH_SOFT, PAPER_INK, EARTHY_NATURE, LAVENDER_DREAM, SAKURA_PINK, ARCTIC_FROST)
+    }
+}
 enum class CardStyle(val hi: String, val en: String) { GRID("Grid", "Grid"), LIST("List", "List"), COMPACT("Compact", "Compact") }
 enum class SortMode(val hi: String, val en: String) { NEW("Naya pehle", "Newest"), AZ("A-Z", "A-Z") }
 
