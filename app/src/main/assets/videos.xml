@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCpxdwzHB-66cPyssRH5IaTA"/>
+ <id>yt:channel:pxdwzHB-66cPyssRH5IaTA</id>
+ <yt:channelId>pxdwzHB-66cPyssRH5IaTA</yt:channelId>
+ <title>Tech Kadak</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCpxdwzHB-66cPyssRH5IaTA"/>
+ <author>
+  <name>Tech Kadak</name>
+  <uri>https://www.youtube.com/channel/UCpxdwzHB-66cPyssRH5IaTA</uri>
+ </author>
+ <published>2026-10-26T17:38:17+00:00</published>
+ <entry>
+  <id>yt:video:rkRyoY8qHzg</id>
+  <yt:videoId>rkRyoY8qHzg</yt:videoId>
+  <yt:channelId>UCpxdwzHB-66cPyssRH5IaTA</yt:channelId>
+  <title>GitHub ki 5 Hidden Android Apps 🔥 Install + Setup + Use (Full Tutorial Hindi)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=rkRyoY8qHzg"/>
+  <author>
+   <name>Tech Kadak</name>
+   <uri>https://www.youtube.com/channel/UCpxdwzHB-66cPyssRH5IaTA</uri>
+  </author>
+  <published>2026-11-03T12:13:41+00:00</published>
+  <updated>2026-11-03T12:13:42+00:00</updated>
+  <media:group>
+   <media:title>GitHub ki 5 Hidden Android Apps 🔥 Install + Setup + Use (Full Tutorial Hindi)</media:title>
+   <media:content url="https://www.youtube.com/v/rkRyoY8qHzg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rkRyoY8qHzg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Bhai, reel wali GitHub ki 5 hidden Android apps ka complete tutorial! 🔥 GitHub se APK safely kaise install kare (Releases, arm64-v8a/universal, Install unknown apps, Obtainium), aur har app ka setup + use, step by step, honest limits ke saath.
+
+⏱️ Chapters
+00:00 Intro — GitHub ki 5 hidden apps
+00:13 GitHub se app safely kaise install kare (Releases, APK, Obtainium)
+00:49 01 Image Toolbox — photo ki poori surgery
+01:33 02 ColorBlendr — Material You colors (Shizuku setup)
+02:20 03 URLCheck — link kholne se pehle check
+03:07 04 HTTP Shortcuts — ek tap me API call
+03:55 05 OpenScan — free document scanner
+04:39 Outro
+
+🔗 Official links (sirf yahin se download karo)
+1) Image Toolbox — https://github.com/T8RIN/ImageToolbox
+   Releases: https://github.com/T8RIN/ImageToolbox/releases · F-Droid: https://f-droid.org/packages/ru.tech.imageresizershrinker/ · Play: https://play.google.com/store/apps/details?id=ru.tech.imageresizershrinker
+2) ColorBlendr — https://github.com/Mahmud0808/ColorBlendr
+   F-Droid: https://f-droid.org/en/packages/com.drdisagree.colorblendr/ · IzzyOnDroid: https://apt.izzysoft.de/packages/com.drdisagree.colorblendr/ · Android 12+ aur Root/Shizuku/Wireless ADB chahiye
+   Shizuku: https://shizuku.rikka.app/guide/setup/
+3) URLCheck — https://github.com/TrianguloY/URLCheck
+   F-Droid: https://f-droid.org/packages/com.trianguloy.urlchecker/ · Play: https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker
+4) HTTP Shortcuts — https://github.com/Waboodoo/HTTP-Shortcuts
+   Docs: https://http-shortcuts.rmy.ch/ · F-Droid: https://f-droid.org/en/packages/ch.rmy.android.http_shortcuts/ · Play: https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts
+5) OpenScan — https://github.com/ethereal-developers/OpenScan
+   Play: https://play.google.com/store/apps/details?id=com.ethereal.openscan · IzzyOnDroid: https://apt.izzysoft.de/packages/com.ethereal.openscan/
+Updates ke liye: Obtainium — https://github.com/ImranR98/Obtainium
+
+⚠️ Sirf official repo/store se APK lo. Random sites ki APK mat install karo.
+✏️ Correction: reel me OpenScan me OCR bola tha — wo OpenScan ke official features me nahi hai. Text nikalna ho to Image Toolbox ka OCR use karo.
+
+💬 Comment karo: kaunsi app pehle try karoge, 1 se 5?
+📲 Instagram: https://instagram.com/techkadak
+💬 Telegram: https://t.me/techkadak
+🔔 Subscribe Tech Kadak — technology ko rakho ekdum kadak!
+
+#android #github #opensource #techkadak #androidapps</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="15"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hMcHsS8aJ0U</id>
+  <yt:videoId>hMcHsS8aJ0U</yt:videoId>
+  <yt:channelId>UCpxdwzHB-66cPyssRH5IaTA</yt:channelId>
+  <title>4 FREE Open Source Android Apps 🔥 Kaam Ki Hidden Apps (Hindi 2026)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hMcHsS8aJ0U"/>
+  <author>
+   <name>Tech Kadak</name>
+   <uri>https://www.youtube.com/channel/UCpxdwzHB-66cPyssRH5IaTA</uri>
+  </author>
+  <published>2026-11-02T13:30:18+00:00</published>
+  <updated>2026-11-02T13:30:19+00:00</updated>
+  <media:group>
+   <media:title>4 FREE Open Source Android Apps 🔥 Kaam Ki Hidden Apps (Hindi 2026)</media:title>
+   <media:content url="https://www.youtube.com/v/hMcHsS8aJ0U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hMcHsS8aJ0U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>4 free aur open source Android apps jo roz kaam aa sakti hain — podcast player, apps updater, weather aur notes. Har app detail mein: kya karti hai, kaise shuru karo, best features aur honest limitations. 🔥
+
+Best open source apps for Android (Hindi) — AntennaPod, Obtainium, Breezy Weather aur Markor.
+
+⏱️ Chapters
+00:00 Intro — aaj ki 4 free open source apps
+00:24 01 AntennaPod — podcast player
+01:29 02 Obtainium — apps ke updates seedha developer se
+02:33 03 Breezy Weather — open source weather app
+03:32 04 Markor — plain text notes + to-do
+04:40 Recap + kaunsi app pasand aayi?
+
+🔗 Official links (sirf yahin se download karo)
+1) AntennaPod — https://antennapod.org
+   F-Droid: https://f-droid.org/packages/de.danoeh.antennapod/
+2) Obtainium — https://github.com/ImranR98/Obtainium
+   F-Droid: https://f-droid.org/packages/dev.imranr.obtainium.fdroid/
+3) Breezy Weather — https://github.com/breezy-weather/breezy-weather
+   F-Droid: https://f-droid.org/packages/org.breezyweather/
+4) Markor — https://github.com/gsantner/markor
+   F-Droid: https://f-droid.org/packages/net.gsantner.markor/
+
+⚠️ Safety note: apps sirf official sources se lo — Play Store, F-Droid ya developer ka official GitHub page. Random site se APK mat uthana. Signature mismatch ya security warning aaye to ruk jao, bypass mat karo. Sync backup nahi hota — important files ki alag backup copy rakho.
+
+💬 Comment karo: in 4 mein se kaunsi app sabse zyada pasand aayi?
+🔔 Aise kadak tech videos ke liye Tech Kadak ko subscribe karo aur bell icon daba do.
+
+📸 Instagram: https://www.instagram.com/techkadak/
+
+#OpenSourceApps #AndroidApps #TechKadak</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="27"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

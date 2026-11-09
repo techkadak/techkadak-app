@@ -1,0 +1,7 @@
+Tech Kadak v1.7.0 - Event pop-ups
+
+What's new:
+- Event pop-ups: when the Tech Kadak team announces something (a new app drop, festival wishes, giveaway, notice), a pop-up appears when you open the app. Each event shows only once and can be closed. No app update is needed for new events.
+- Kept: new-app notifications, optional device sharing, English update notes.
+
+Created by Rohit Saini

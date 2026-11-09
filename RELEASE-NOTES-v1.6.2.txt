@@ -1,0 +1,8 @@
+Tech Kadak v1.6.2 - AI Helper removed
+
+What's changed:
+- The AI Helper (chat and voice) has been removed completely, as requested.
+- Kept from v1.6: notifications when new apps are added, English update notes, and the optional device sharing (off unless you allow it).
+
+Everything else works as before. Your data stays safe.
+Created by Rohit Saini

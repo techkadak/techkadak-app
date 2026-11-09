@@ -1,0 +1,8 @@
+Tech Kadak v1.7.1 - Event pop-up update
+
+What's new:
+- Event pop-up is now a card (not full screen) with a close button (X) at the top-right. Close it and explore the app freely.
+- Events can show a banner image and a button (for example, open our Instagram).
+- Events marked "repeat" appear every time you open the app; others show once.
+
+Created by Rohit Saini

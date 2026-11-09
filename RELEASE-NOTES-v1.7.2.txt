@@ -1,0 +1,7 @@
+Tech Kadak v1.7.2 - Event cards in a row
+
+What's new:
+- If there is more than one event, the cards now appear one after another: close the first one and the next one comes up (for example: congratulations card, then YouTube subscribe card).
+- Each card has a close button (X) and a button that opens the link (Instagram, YouTube).
+
+Created by Rohit Saini

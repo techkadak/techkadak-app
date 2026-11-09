@@ -1,0 +1,8 @@
+Tech Kadak v1.6.1 - AI Helper fix
+
+What's fixed:
+- AI Helper: your Gemini key is now accepted correctly (extra spaces, line breaks and quotes are cleaned automatically). Before, a valid key could be rejected and the chat screen did not open.
+- The chat and voice screen now opens right after you save the key.
+
+Everything else works as before. Your data stays safe.
+Created by Rohit Saini

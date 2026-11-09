@@ -1,0 +1,89 @@
+{
+ "version": 1,
+ "note": "Tech Kadak Kits. Sirf apps.json ke slugs. Website pe data/kits.json ya Remote Config key kits_json se badal sakte ho.",
+ "kits": [
+  {
+   "id": "student",
+   "name": "Student Kit",
+   "emoji": "🎒",
+   "tagline": "Padhai, notes, PDF aur focus — sab free",
+   "apps": [
+    "ankidroid",
+    "goodtime-pomodoro",
+    "markor",
+    "paperknife",
+    "openscan",
+    "khan-academy"
+   ]
+  },
+  {
+   "id": "creator",
+   "name": "Creator Kit",
+   "emoji": "🎬",
+   "tagline": "Photo, video, audio — content banane ke free tools",
+   "apps": [
+    "image-toolbox",
+    "seal",
+    "vlc",
+    "fossify-gallery",
+    "photopea",
+    "adobe-podcast-enhance-speech"
+   ]
+  },
+  {
+   "id": "phone-safai",
+   "name": "Phone Safai Kit",
+   "emoji": "🧹",
+   "tagline": "Storage saaf, apps control, updates seedha developer se",
+   "apps": [
+    "sd-maid-se",
+    "app-manager",
+    "obtainium",
+    "apkupdater",
+    "discreet-launcher"
+   ]
+  },
+  {
+   "id": "privacy",
+   "name": "Privacy Kit",
+   "emoji": "🛡️",
+   "tagline": "Passwords, 2FA, firewall — apna data apne paas",
+   "apps": [
+    "bitwarden",
+    "aegis-authenticator",
+    "rethink-dns",
+    "keepassdx",
+    "urlcheck",
+    "proton-vpn-free"
+   ]
+  },
+  {
+   "id": "office",
+   "name": "Office Kit",
+   "emoji": "💼",
+   "tagline": "Documents, PDF, files share — office ka kaam free me",
+   "apps": [
+    "paperknife",
+    "openscan",
+    "markor",
+    "localsend",
+    "kde-connect",
+    "libreoffice"
+   ]
+  },
+  {
+   "id": "music-video",
+   "name": "Music & Video Kit",
+   "emoji": "🎧",
+   "tagline": "Gaane, videos, podcasts — bina ads ke",
+   "apps": [
+    "vlc",
+    "newpipe",
+    "libretube",
+    "metrolist",
+    "antennapod",
+    "seal"
+   ]
+  }
+ ]
+}
