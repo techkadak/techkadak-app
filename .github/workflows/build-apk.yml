@@ -1,8 +1,11 @@
 # Build-only: the same signed release APK as release.yml, uploaded as a workflow
-# artifact. Runs only when started by hand. Creates NO GitHub Release and NO tag.
+# artifact. Runs on a push to this branch or when started by hand. Creates NO GitHub
+# Release and NO tag.
 name: Build APK (artifact only)
 
 on:
+  push:
+    branches: [build-apk-themes-30]
   workflow_dispatch:
     inputs:
       version:
@@ -29,7 +32,7 @@ jobs:
       - name: Version
         id: ver
         run: |
-          V="${{ github.event.inputs.version }}"
+          V="${{ github.event.inputs.version || '1.8.0' }}"
           IFS=. read -r MA MI PA <<< "$V"
           CODE=$(( ${MA:-0} * 10000 + ${MI:-0} * 100 + ${PA:-0} ))
           echo "name=$V" >> "$GITHUB_OUTPUT"
