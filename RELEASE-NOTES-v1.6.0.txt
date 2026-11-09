@@ -1,0 +1,11 @@
+Tech Kadak v1.6.0 - AI Helper update
+
+What's new:
+- AI Helper: chat (or speak) with Gemini and it finds apps for you from the Tech Kadak store. Uses your own free Gemini key, kept only on your phone.
+- Voice: tap the mic to ask by voice, and turn on the speaker switch to hear the answers.
+- New apps alert: you now get a notification whenever new apps are added (one summary if several arrive together).
+- Device sharing (optional, off unless you allow it): lets the app owner see your phone name and the names of your installed apps to improve suggestions. You can change this any time in Settings.
+- Admin panel: the owner can now see opted-in devices and their installed apps.
+
+Everything else works as before. Your data stays safe.
+Created by Rohit Saini

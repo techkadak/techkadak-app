@@ -1,0 +1,9 @@
+Tech Kadak v1.5.1 - mini update
+
+Kya naya hai:
+- Opening animation ab 5 second ki hai, aur "Created by Rohit Saini" bada aur saaf dikhta hai
+- Mini update: naya version aane par app kholte hi download khud shuru ho jaata hai (Wi-Fi pe), progress bar chalta hai, aur phir install screen khul jaati hai. Bas Android ka ek "Update" tap lagta hai
+- Mobile data pe download tumhare tap se hi shuru hoga
+
+Baaki sab pehle jaisa, aapka data safe rahega.
+Created by Rohit Saini

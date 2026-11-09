@@ -1,0 +1,14 @@
+Tech Kadak v1.5.0 - bada update
+
+Naya kya hai:
+- Naya opening animation
+- Browser tab: app ke andar hi search, tabs, downloads, bookmarks, incognito
+- Apps ke official screenshots (swipe karke dekho)
+- Reviews: apna review likho (login chahiye), sirf asli reviews
+- Suggestion: top ke bulb se batao kaunsa feature chahiye
+- Naya member card (naya account banane pe), Profile me bhi
+- Naya update card, About me QR
+- Support Tech Kadak (optional, Rs 50)
+
+Bug fixes aur smooth scrolling.
+Created by Rohit Saini
