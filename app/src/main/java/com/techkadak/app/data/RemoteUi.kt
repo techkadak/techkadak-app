@@ -14,6 +14,9 @@ data class RemoteUi(
     val minVersionCode: Long = 0,
     /** v1.2: Kits ko bina naye APK ke badlo — kits.json jaisa JSON string (khaali = bundled / website wale). */
     val kitsJson: String? = null,
+    /** v1.8: Remote Config latest_version_code + apk_url. Naya ho to "update available" card. */
+    val latestVersionCode: Long = 0,
+    val apkUrl: String? = null,
 ) {
     val hasAnnouncement get() = announcementText.isNotBlank()
 
@@ -22,7 +25,7 @@ data class RemoteUi(
     companion object {
         val KEYS = mapOf(
             "announcement_text" to "", "announcement_url" to "", "featured_slug" to "",
-            "home_sections_order" to "", "default_accent" to "", "maintenance_message" to "", "min_version_code" to "0", "kits_json" to "",
+            "home_sections_order" to "", "default_accent" to "", "maintenance_message" to "", "min_version_code" to "0", "kits_json" to "", "latest_version_code" to "0", "apk_url" to "",
         )
 
         /** Raw strings (Remote Config getString) se safe values. Galat value = ignore. */
@@ -35,6 +38,8 @@ data class RemoteUi(
             maintenanceMessage = get("maintenance_message").trim().ifEmpty { null },
             minVersionCode = get("min_version_code").trim().toDoubleOrNull()?.toLong()?.coerceAtLeast(0) ?: 0,
             kitsJson = get("kits_json").trim().takeIf { it.startsWith("{") },
+            latestVersionCode = get("latest_version_code").trim().toDoubleOrNull()?.toLong()?.coerceAtLeast(0) ?: 0,
+            apkUrl = get("apk_url").trim().takeIf { it.startsWith("https://") },
         )
 
         /** "#9BFF2E" / "9bff2e" / "#FF9BFF2E" -> ARGB long. Kuch aur = null. */

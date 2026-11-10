@@ -31,8 +31,8 @@ android {
         applicationId = "in.techkadak.app"
         minSdk = 24
         targetSdk = 34
-        versionCode = prop("VERSION_CODE", "10500").toInt()
-        versionName = prop("VERSION_NAME", "1.5.0")
+        versionCode = prop("VERSION_CODE", "10800").toInt()
+        versionName = prop("VERSION_NAME", "1.8.0")
         buildConfigField("String", "SITE_BASE", "\"${prop("TK_SITE_BASE", "https://techkadak.github.io").trimEnd('/')}\"")
         buildConfigField("String", "GITHUB_OWNER", "\"${prop("TK_GITHUB_OWNER", "techkadak")}\"")
         buildConfigField("String", "GITHUB_REPO", "\"${prop("TK_GITHUB_REPO", "techkadak-app")}\"")
