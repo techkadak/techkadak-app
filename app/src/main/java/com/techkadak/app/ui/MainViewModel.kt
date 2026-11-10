@@ -482,10 +482,19 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
 
     fun find(slug: String) = data.apps.firstOrNull { it.slug == slug }
 
+    /** v1.8: Remote Config latest_version_code + apk_url. Naya ho to wahi Release (update card wahi). */
+    private fun remoteRelease(): com.techkadak.app.update.Release? {
+        val code = remote.latestVersionCode
+        val url = remote.apkUrl ?: return null
+        if (code <= BuildConfig.VERSION_CODE) return null
+        val name = "${code / 10000}.${code / 100 % 100}.${code % 100}"
+        return com.techkadak.app.update.Release(name, "", url, 0L, url)
+    }
+
     /** v1.2: har app open pe check (koi throttle nahi). Offline = kuch nahi. */
     private fun autoCheckUpdate() {
         viewModelScope.launch {
-            val r = updater.check()
+            val r = updater.check() ?: remoteRelease()
             prefs.lastUpdateCheck = System.currentTimeMillis()
             if (r != null) { update = r; updater.readyFile(r)?.let { dl = DlState.Done(it) } }
         }
@@ -506,7 +515,7 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
         if (updateChecking) return
         updateChecking = true; updateMsg = null
         viewModelScope.launch {
-            val r = updater.check()
+            val r = updater.check() ?: remoteRelease()
             prefs.lastUpdateCheck = System.currentTimeMillis()
             updateChecking = false
             if (r != null) { update = r; updater.readyFile(r)?.let { dl = DlState.Done(it) } } else updateMsg = com.techkadak.app.ui.tr("Tu latest version pe hai ✅", "You're on the latest version ✅")

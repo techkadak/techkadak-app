@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "570199463941",
+    "project_id": "tech-kadak",
+    "storage_bucket": "tech-kadak.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570199463941:android:9bc69863d5d4619bd6e46c",
+        "android_client_info": {
+          "package_name": "in.techkadak.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570199463941-gc071uoqh856ecs8gg3egs05d1a83g9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.techkadak.app",
+            "certificate_hash": "5a58162e983c35ba539f4ee179f5029559210a7b"
+          }
+        },
+        {
+          "client_id": "570199463941-n91e4bqqf3hda7h8h3dicru4uk4cu8i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl6-EtpFl3plYddoROqGkZt6fnJt4ZYds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570199463941-n91e4bqqf3hda7h8h3dicru4uk4cu8i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
